@@ -1,0 +1,3 @@
+test file for clone
+while working in the folder where you have cloned the repo, you dont have to again use remote add origin "<URL>" command because it already knows where
+to go

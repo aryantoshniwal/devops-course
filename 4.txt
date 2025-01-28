@@ -1,4 +1,5 @@
 test file for clone
 while working in the folder where you have cloned the repo, you dont have to again use remote add origin "<URL>" command because it already knows where
 to go
-This is me trying to edit this file in github and see what happens to the file content of 4.txt in my local repo
+This is me trying to edit this file in github and see what happens to the file content of 4.txt in my local repo. 
+The changes will not be applied to the local repo but once you pull the repo from github, the changes will be applied to your local repo

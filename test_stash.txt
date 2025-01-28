@@ -1,0 +1,10 @@
+This is a test file to see how stash works. Let's take an example to understand why we need stash?
+Example: First, I create a new file in my test branch. Next, type ls and see that new file is being shown in the list of files. Next, I switch to master
+branch and type ls, I can see the new file in master also. I switch to test branch again and then type git add . 
+I type ls again and I can still see the new file in the list of files. I switch to master and type ls, I still see the new file in the list of files. 
+
+This is extremely concerning because we dont want one branch to interfere with other branch. That's why we use stage. We type git stash in the test
+branch. This saves our work without committing and we can switch to master branch now without any concern. The new file wont be reflected in master.
+I do my work in master and switch to test branch. Now when I do ls the new file wont be visible. To retreive our previous working state we use:
+git stash pop
+This will return us to our previous working mode
